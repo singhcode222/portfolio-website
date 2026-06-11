@@ -17,3 +17,16 @@ p{
     line-height: 1.5;
 
 }
+
+.home-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto;
+}
+
