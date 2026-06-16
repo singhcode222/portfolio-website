@@ -1,6 +1,16 @@
 
-    body {
-    background-image: url("images/PortfolioBackGroundGarage.png");
+* {
+    color: black;
+    -webkit-text-stroke: 0.3px white;
+    text-shadow: 
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+body {
+    background-image: url("images/GarageBackground.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,20 +18,28 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: Futura, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: bold;
+    overflow: hidden;
 }
 
-.rb22-car {
+.rb21-car {
     position: fixed;
-    bottom: 5%;
-    left: 30%;
-    transform: translateX(-50%);
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 10;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
+    transition: filter 0.3s ease;
+}
+
+.rb21-car:hover {
+    filter: drop-shadow(0 0 5px white) drop-shadow(0 0 10px white) drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
 }
 
 footer {
-    color: rgb(255, 221, 0);
+    color: black;
+    -webkit-text-stroke: 0.3px white;
     padding: 15px 20px;
     position: fixed;
     bottom: 0;
@@ -36,3 +54,4 @@ nav a {
 nav a:hover {
     transform: translateY(-3px);
 }
+
