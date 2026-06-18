@@ -92,3 +92,18 @@ footer {
     margin-left: auto;
 }
 
+SF2002 {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
+    transition: filter 0.3s ease;
+}
+
+SF2002:hover {filter: drop-shadow(0 0 5px white)
+            drop-shadow(0 0 10px white)
+            drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+}
+   
