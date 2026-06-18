@@ -28,7 +28,6 @@ h1, h2, p, li, a {
     margin-left: 40px;
 }
 
-
 .rb21-car {
     position: fixed;
     top: 85%;
@@ -44,6 +43,29 @@ h1, h2, p, li, a {
             drop-shadow(0 0 10px white)
             drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
 }
+
+.SF2002 {
+    position: fixed;
+    top: 80%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
+    transition: filter 0.3s ease;
+}
+
+.SF2002:hover {
+    filter: drop-shadow(0 0 5px white)
+            drop-shadow(0 0 10px white)
+            drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+}
+
+.SF2002 {  
+    width: 850px;
+    height: auto;
+}
+   
+
 
 footer {
     color: black;
@@ -92,18 +114,3 @@ footer {
     margin-left: auto;
 }
 
-SF2002 {
-    position: fixed;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
-    transition: filter 0.3s ease;
-}
-
-SF2002:hover {filter: drop-shadow(0 0 5px white)
-            drop-shadow(0 0 10px white)
-            drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
-}
-   
