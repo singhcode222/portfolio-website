@@ -67,6 +67,52 @@ h1, h2, p, li, a {
     height: auto;
 }
 
+/* Mystery Machine hitbox */
+
+.MysteryMachine {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
+    transition: filter 0.3s ease;
+}
+
+.MysteryMachine:hover {
+    filter: drop-shadow(0 0 5px white)
+            drop-shadow(0 0 10px white)
+            drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+}
+
+.MysteryMachine {  
+    width: 650px;
+    height: auto;
+}
+
+/* ghost busters */ 
+.GhostBusters {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.4));
+    transition: filter 0.3s ease;
+}
+
+.GhostBusters:hover {
+    filter: drop-shadow(0 0 5px white)
+            drop-shadow(0 0 10px white)
+            drop-shadow(0 0 15px rgba(255, 255, 255, 0.5));
+}
+
+.GhostBusters {  
+    width: 900px;
+    height: auto;
+}
+
+
 /* delorean hitbox */
 .Delorean {
     position: fixed;
@@ -136,4 +182,5 @@ footer {
 .push-right {
     margin-left: auto;
 }
+
 
